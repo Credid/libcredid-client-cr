@@ -1,6 +1,6 @@
 # auth-api
 
-The client API of [auth-server](https://github.com/Nephos/auth-server)
+The client API of [auth-server](https://github.com/AuthCr/auth-server)
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   auth-api:
-    github: Nephos/auth-api
+    github: AuthCr/auth-api
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/Nephos/auth-api/fork )
+1. Fork it ( https://github.com/AuthCr/auth-api/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
