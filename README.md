@@ -19,6 +19,7 @@ require "auth-api"
 api = Auth::Api.new(ip: "127.0.0.1", port: 8999_u16, username: "root", passowrd: "toor")
 puts api.auth!
 puts api.has_access_to? "/tmp", "write" if api.success?
+api.close
 ```
 
 TODO: Write usage instructions here

@@ -34,6 +34,10 @@ class Auth::Api
     @ssl_socket || @socket
   end
 
+  def close
+    socket.close
+  end
+
   private def gets
     result = socket.gets
     STDOUT.puts "< #{result.inspect}" if @verbosity
