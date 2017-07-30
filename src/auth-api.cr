@@ -64,7 +64,7 @@ class Auth::Api
   end
 
   def auth! : Bool
-    puts "AUTH : #{@username} #{@password}"
+    puts "AUTH : \\a #{@username} #{@password}"
     gets
     self.success?
   end
