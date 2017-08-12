@@ -22,7 +22,7 @@ class Auth::Api
     if @ssl
       ssl_context = OpenSSL::SSL::Context::Client.insecure
       # TODO. well, it should only be used for testing
-      ssl_context.verify_mode = OpenSSL::SSL::VerifyMode::NONE
+      # ssl_context.verify_mode = OpenSSL::SSL::VerifyMode::NONE
       @ssl_socket = OpenSSL::SSL::Socket::Client.new(@socket, ssl_context)
       STDOUT.puts "Secure connection established" if @verbosity
     end
