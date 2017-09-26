@@ -1,9 +1,9 @@
-require "./auth-api/*"
+require "./credid-api/*"
 require "socket"
 require "openssl"
 
 # TODO: SSL
-class Auth::Api
+class Credid::Api
   @socket : TCPSocket
   @ip : String
   @port : UInt16

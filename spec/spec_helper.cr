@@ -1,2 +1,2 @@
 require "spec"
-require "../src/auth-api"
+require "../src/credid-api"
